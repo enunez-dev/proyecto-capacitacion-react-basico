@@ -1,0 +1,88 @@
+.card{
+    font-family: Montserrat;
+    margin-bottom: 50px;
+    width: 395px;
+    .cardImage{
+        border-radius: 24px;
+        height: 269px;
+        width: 100%;
+    }
+    .cardDetails{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        height: 30px;
+        justify-content: space-between;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        width: 100%;
+        .star {
+            fill: #eb5757;
+            height: 15px;
+            margin-right: 3px;
+            width: 15px;
+        }
+        .containerHost {
+            align-items: center;
+            border: 1px solid #4f4f4f;
+            border-radius: 12px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+        }
+        .hostText {
+            color: #4f4f4f;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 15px;          
+            margin: 5px 10px;
+            text-transform: uppercase;
+        }
+        .cardDescription{
+            color: #828282;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 17px;
+        }
+    }
+    .cardFooter{
+        color: #333333;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: right;
+    }
+}
+
+.cardList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow-x:hidden;
+    .containerTitle{
+        display: flex;
+        justify-content: space-between;
+        margin: 35px 0;
+        width: 100%;
+        .title{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+            color: #333333;
+        }
+        .count{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: #4F4F4F;
+        }
+    }
+}

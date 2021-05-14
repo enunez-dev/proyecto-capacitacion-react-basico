@@ -1,0 +1,32 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    .name{
+        align-items: baseline;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .triangulo {
+            width: 0;
+            height: 0;
+            background: transparent;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-bottom: 12px solid #EB5757;
+            border-radius: 5px;
+            margin-right: 2px;
+        }
+        span{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 21px;
+            color: #EB5757;
+        }
+    }
+}
